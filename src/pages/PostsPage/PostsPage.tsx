@@ -4,6 +4,7 @@ import { PostsTable } from '../../components/PostsTable/PostsTable';
 import { Pagination } from '../../components/Pagination/Pagination';
 import { apiClient } from '../../api/client';
 import { Post, PaginationMeta } from '../../types';
+import './PostsPage.css';
 
 export const PostsPage: React.FC = () => {
   const navigate = useNavigate();

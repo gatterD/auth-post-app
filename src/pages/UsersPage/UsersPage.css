@@ -1,0 +1,36 @@
+.users-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.users-page--loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.users-page__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.users-page__title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.users-page__table {
+  margin-top: 24px;
+}
+
+.users-page__error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  color: #f44336;
+}

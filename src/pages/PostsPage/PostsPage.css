@@ -1,0 +1,36 @@
+.posts-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.posts-page--loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.posts-page__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.posts-page__title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.posts-page__table {
+  margin-top: 24px;
+}
+
+.posts-page__error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  color: #f44336;
+}

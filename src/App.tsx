@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Theme } from '@consta/uikit/Theme';
 import { presetGpnDefault } from '@consta/uikit/Theme/index';
 import { MainPage } from './pages/MainPage/MainPage';
+import { UsersPage } from './pages/UsersPage/UsersPage';
+import { PostsPage } from './pages/PostsPage/PostsPage';
 import { UserDetailPage } from './pages/UserDetailPage/UserDetailPage';
 import { PostDetailPage } from './pages/PostDetailPage/PostDetailPage';
 
@@ -12,8 +14,13 @@ const App: React.FC = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<MainPage />} />
+          
+          <Route path="/users" element={<UsersPage />} />
+          <Route path="/posts" element={<PostsPage />} />
+          
           <Route path="/users/:id" element={<UserDetailPage />} />
           <Route path="/posts/:id" element={<PostDetailPage />} />
+          
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </BrowserRouter>
