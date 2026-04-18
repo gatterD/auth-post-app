@@ -1,0 +1,43 @@
+.main-page {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.main-page__token-card {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 32px;
+}
+
+.main-page__title {
+  margin: 0 0 8px;
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-typo-primary);
+}
+
+.main-page__subtitle {
+  margin: 0 0 24px;
+  color: var(--color-typo-secondary);
+  line-height: 1.5;
+}
+
+.main-page__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.main-page__token-section {
+  max-width: 400px;
+}
+
+.main-page__tabs {
+  margin-bottom: 24px;
+}
+
+.main-page__content {
+  min-height: 400px;
+}

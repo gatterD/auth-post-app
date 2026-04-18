@@ -1,0 +1,32 @@
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  padding: 16px 0;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.pagination__per-page {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.pagination__per-page-buttons {
+  display: flex;
+  gap: 4px;
+}
+
+.pagination__controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pagination__pages {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
